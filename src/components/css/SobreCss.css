@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-geral-sobre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0;
+  gap: 80px;
+
+  .box-titulo-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+
+    h1 {
+      font-size: 54.4px;
+      color: #0d7757;
+      font-family: "Shadows Into Light", cursive;
+      width: 900px;
+      border-bottom: 3px solid #0d7757;
+    }
+  }
+  .box-imge-text-sobre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80vh;
+
+    .box-text-sobre {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+
+      .box-text-box-sobre {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        flex-direction: column;
+        width: 55%;
+        margin-right: -200px;
+        background-color: #0d7757;
+        padding: 50px 20px;
+        gap: 10px;
+        position: absolute;
+
+        h2 {
+          font-size: 42.6px;
+          color: #cdd6a3;
+          font-family: "Shadows Into Light", cursive;
+        }
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #cdd6a3;
+          padding: 10px 20px;
+          text-decoration: none;
+          color: #cdd6a3;
+          margin-top: 20px;
+          border-radius: 10px;
+          outline: none;
+        }
+        p {
+          font-size: 20.8px;
+          color: #cdd6a3;
+        }
+        a:hover {
+          color: #fff;
+          background-color: #cdd6a3;
+          font-weight: bold;
+        }
+      }
+    }
+    .box-image-sobre {
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .box-content-forma-sobre {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 80px;
+    gap: 50px;
+    z-index: 1;
+
+    .box-image-forma-sobre {
+      width: 400px;
+      height: 500px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .box-text-forma-sobre {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      width: 550px;
+      gap: 10px;
+
+      h3 {
+        font-size: 45px;
+        color: #0d7757;
+        font-family: "Shadows Into Light", cursive;
+      }
+      p {
+        font-size: px;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #0d7757;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #0d7757;
+        margin-top: 20px;
+        border-radius: 10px;
+        outline: none;
+      }
+      a:hover {
+        color: #fff;
+        background-color: #0d7757;
+        font-weight: bold;
+      }
+    }
+  }
+  .box-separacao-cor {
+    width: 80%;
+    height: 180px;
+    background-color: #cdd6a3;
+    margin-top: -150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-geral-sobre {
+    .box-imge-text-sobre {
+      height: auto;
+      .box-text-sobre {
+        width: 100%;
+
+        .box-text-box-sobre {
+          width: 100%;
+          position: unset;
+          padding: 50px 20px;
+          margin-right: 0;
+        }
+      }
+      .box-image-sobre {
+        width: 100%;
+      }
+    }
+    .box-content-forma-sobre {
+      justify-content: center;
+      align-items: center;
+      padding-left: 0px;
+
+      .box-text-forma-sobre {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-geral-servicos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 0;
+  gap: 80px;
+
+  .box-titulo-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-bottom: 3px solid #0d7757;
+    padding: 20px 0;
+
+    h1 {
+      font-size: 54.4px;
+      color: #0d7757;
+      font-family: "Shadows Into Light", cursive;
+    }
+  }
+  .box-geral-content-servicos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+
+    .box-servicos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 50px;
+      z-index: 1;
+      flex-wrap: wrap;
+      margin-top: 50px;
+
+      .box-image-servicos {
+        width: 500px;
+        height: 400px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .box-text-servicos {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        flex-direction: column;
+        width: 500px;
+        gap: 20px;
+
+        h2 {
+          font-size: 38.4px;
+          color: #0d7757;
+          font-family: "Shadows Into Light", cursive;
+        }
+        p {
+          font-size: 16px;
+          color: #373533;
+        }
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 2px solid #0d7757;
+          padding: 10px 20px;
+          text-decoration: none;
+          color: #0d7757;
+          margin-top: 20px;
+          border-radius: 10px;
+          outline: none;
+        }
+        a:hover {
+          color: #fff;
+          background-color: #0d7757;
+          font-weight: bold;
+        }
+      }
+    }
+    .box-separacao-cor {
+      width: 80%;
+      height: 180px;
+      background-color: #cdd6a3;
+      margin-top: -40px;
+      margin-bottom: 50px;
+    }
+    .box-separacao-cor-1 {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      width: 100%;
+    }
+  }
+}

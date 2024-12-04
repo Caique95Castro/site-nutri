@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-geral-contato {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 50px;
+  gap: 80px;
+
+  .box-titulo-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+
+    h1 {
+      font-size: 54.4px;
+      color: #0d7757;
+      font-family: "Shadows Into Light", cursive;
+      width: 400px;
+      border-bottom: 3px solid #0d7757;
+    }
+  }
+  .box-content-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+
+    p {
+      font-size: 18px;
+      color: #373533;
+    }
+    .box-links-redes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 10px;
+
+      .icones-icones {
+        width: 30px;
+        height: 30px;
+        color: grey;
+        text-decoration: none;
+      }
+      .icones-icones:hover {
+        color: rgb(13, 119, 87);
+      }
+      a {
+        text-decoration: none;
+        color: #373533;
+      }
+    }
+    .box-localizacao-google {
+      display: flex;
+      width: 100%;
+      background-color: aqua;
+
+      .mapa-google {
+        width: 100%;
+        height: 400px;
+      }
+    }
+  }
+}

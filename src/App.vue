@@ -2,7 +2,8 @@
   <div class="container-geral-app">
     <div class="container-geral-header">
       <div class="box-logo">
-        <img src="" alt="LOGO EMPRESA" />
+        <h1>SEU LOGO</h1>
+        <!-- <img src="" alt="LOGO EMPRESA" /> -->
       </div>
       <!-- Botão Menu Hambúrguer -->
       <button @click="toggleMenu" class="menu-button">☰</button>

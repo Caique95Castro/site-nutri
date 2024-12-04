@@ -74,3 +74,8 @@
     }
   }
 }
+@media screen and (max-width: 500px) {
+  .container-geral-contato {
+    padding: 0 10px;
+  }
+}

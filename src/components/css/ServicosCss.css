@@ -11,7 +11,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 0px;
   gap: 80px;
 
   .box-titulo-servicos {
@@ -103,6 +103,22 @@
       justify-content: flex-end;
       align-items: flex-end;
       width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-geral-servicos {
+    .box-geral-content-servicos {
+      .box-servicos {
+        .box-image-servicos {
+          width: 100%;
+          height: auto;
+          padding: 0 10px;
+        }
+        .box-text-servicos {
+          padding: 0 10px;
+        }
+      }
     }
   }
 }

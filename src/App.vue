@@ -26,14 +26,6 @@
           >CONTATO</router-link
         >
       </nav>
-      <!-- <nav>
-        <router-link to="/">INICIO</router-link>
-        <router-link to="/consulta-onile">CONSULTA ONLINE</router-link>
-        <router-link to="/servicos">SERVIÇOS</router-link>
-        <router-link to="/sobre">SOBRE A NUTRI</router-link>
-        <router-link to="/depoimentos">DEPOIMENTOS</router-link>
-        <router-link to="/contato">CONTATO</router-link>
-      </nav> -->
     </div>
     <router-view />
     <!-- WHATSAPP BOTÃO -->
@@ -144,6 +136,7 @@ export default {
       position: absolute;
       right: 20px;
       top: 20px;
+      color: #42b983;
     }
     nav {
       display: flex;

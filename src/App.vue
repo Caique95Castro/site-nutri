@@ -42,7 +42,14 @@
       <div class="box-footer">
         <div class="box-itens-footer">
           <p>
-            2024© Mariana Gomes Nutricionista | Desenvolvido por CaiqueCastro
+            2024© Seu Nome Nutricionista | Desenvolvido por
+            <a
+              class="meusite"
+              href="https://caiquecastro.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >CaiqueCastro</a
+            >
           </p>
         </div>
         <div class="box-itens-footer">
@@ -67,7 +74,7 @@
           </a>
         </div>
         <div class="box-itens-footer" style="flex-direction: column">
-          <h4>Nutricionista Gomes Nutricionista</h4>
+          <h4>Nutricionista Seu Nome Nutricionista</h4>
           <a href="http://" target="_blank" rel="noopener noreferrer"
             >Contato: (11) 00000-0000</a
           >
@@ -216,6 +223,11 @@ export default {
         width: 300px;
         gap: 10px;
 
+        .meusite {
+          font-size: 16px;
+          color: blue;
+          text-decoration: underline;
+        }
         .icones-icones {
           width: 30px;
           height: 30px;
